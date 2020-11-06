@@ -1,33 +1,4 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": 8,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      " * Serving Flask app \"__main__\" (lazy loading)\n",
-      " * Environment: production\n",
-      "   WARNING: This is a development server. Do not use it in a production deployment.\n",
-      "   Use a production WSGI server instead.\n",
-      " * Debug mode: off\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      " * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)\n",
-      "127.0.0.1 - - [05/Nov/2020 12:01:18] \"\u001b[37mGET / HTTP/1.1\u001b[0m\" 200 -\n",
-      "127.0.0.1 - - [05/Nov/2020 12:01:29] \"\u001b[37mPOST /predict HTTP/1.1\u001b[0m\" 200 -\n",
-      "127.0.0.1 - - [05/Nov/2020 13:10:26] \"\u001b[37mPOST /predict HTTP/1.1\u001b[0m\" 200 -\n"
-     ]
-    }
-   ],
-   "source": [
+  "source": [
     "import numpy as np\n",
     "import pandas as pd\n",
     "\n",
